@@ -1,25 +1,26 @@
 coursera-posa-pa
 ================
+h2. What is this project ?
 
-This project contains 2 simple examples that performs 2 Echo Server using Java Netty. This examples were part of the POSA  Course's Programming Assignment at Coursera (https://class.coursera.org/posa-001/class/index).
+This project *coursera-posa-pa* contains 2 simple examples that performs 2 *Echo Server* using *Java Netty*. This examples were part of the POSA  Course's Programming Assignment at Coursera (https://class.coursera.org/posa-001/class/index).
 
-h2. To start quickly, build the project :
+h2.  To start quickly, build the project :
 
-cd coursera-posa-pa
+<pre><code>cd coursera-posa-pa</code></pre>
 
-To build Programming assignment #3 
+To build *Programming assignment #3* 
 
 -The purpose of this assignment is to deepen your understanding of the Wrapper Facade pattern, the Reactor pattern and the (Acceptor role of the) Acceptor-Connector pattern in the context of Java Netty. 
 
 <pre><code>cd posa-pa-iii</code></pre>
 <pre><code>mvn install package assembly:assembly -DskipTests=true</code></pre>
 
-h2. Now run the JAR file using
+h2.  Now run the JAR file using
 
 <pre><code>*java -jar posa-pa-iii-0.0.1-SNAPSHOT-jar-with-dependencies.jar*</code></pre>
 
 
-To build Programming assignment #4
+To build *Programming assignment #4*
 
 -The purpose of this assignment is to deepen your understanding of the Half-Sync/Half-Async pattern in the context of Java. 
 
